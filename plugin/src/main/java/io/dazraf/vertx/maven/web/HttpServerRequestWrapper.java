@@ -171,4 +171,34 @@ public class HttpServerRequestWrapper implements HttpServerRequest {
   public boolean isEnded() {
     return  wrapped.isEnded();
   }
+
+  @Override
+  public HttpConnection connection() {
+    return wrapped.connection();
+  }
+
+  @Override
+  public HttpServerRequest customFrameHandler(Handler<HttpFrame> handler) {
+    return wrapped.customFrameHandler(handler);
+  }
+  
+  @Override
+  public String scheme() {
+    return wrapped.scheme();
+  }
+
+  @Override
+  public boolean isSSL() {
+    return wrapped.isSSL();
+  }
+
+  @Override
+  public String rawMethod() {
+    return wrapped.rawMethod();
+  }
+
+  @Override
+  public String host() {
+    return wrapped.host();
+  }
 }
