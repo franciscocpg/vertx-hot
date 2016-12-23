@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.dazraf</groupId>
+  <artifactId>vertx-hot-maven-plugin</artifactId>
+  <versioning>
+    <latest>2.1.1</latest>
+    <release>2.1.1</release>
+    <versions>
+      <version>2.1.1</version>
+    </versions>
+    <lastUpdated>20161223214624</lastUpdated>
+  </versioning>
+</metadata>
